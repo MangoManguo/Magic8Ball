@@ -14,7 +14,7 @@ function judge() {
   console.log(rand);
   if (question.value.toLowerCase() == "does a magic 8 ball actually work?") {
     answer.innerHTML = "YOU DARE DOUBT THE MAGIC 8 BALL? 😡";
-  } else if (question == "") {
+  } else if (question.value == "") {
     answer.innerHTML = "Please ask a question...";
   } else if (question.value.toLowerCase() == "should i do my homework?") {
     answer.innerHTML = "If you want a good grade 👍";
